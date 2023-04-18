@@ -26,6 +26,16 @@
     color: var(--color-slate);
   }
   
+  /* Specification */
+  
+  .list {
+    list-style-type: none;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
   /* Header section */
   
   .header {
