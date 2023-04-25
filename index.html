@@ -12,15 +12,16 @@
 </head>
 <body>
     <!-- Header section -->
-    <header class="header">  
-        <nav>
+    <header class="header"> 
+        <div class="container header-container"> 
+        <nav class="page-nav">
             <a href="./index.html" class="link-logo link">Web<span class="link-title-primary">Studio</span></a>
-            <ul class="list">
-                <li><a href="./index.html" class="nav-item link">Studio</a>
+            <ul class="menu list">
+                <li class="menu-item"><a href="./index.html" class="nav-item link">Studio</a>
                 </li>
-                <li><a href="./portfolio.html" class="nav-item link">Portfolio</a>
+                <li class="menu-item"><a href="./portfolio.html" class="nav-item link">Portfolio</a>
                 </li>
-                <li><a href="" class="nav-item link">Contacts</a>
+                <li class="menu-item"><a href="" class="nav-item link">Contacts</a>
                 </li>
             </ul>
         </nav>
@@ -34,82 +35,93 @@
                 </li>
             </ul>
         </address>
+    </div>
     </header> 
     <!-- Main -->
     <main>
         <!-- Hero section -->
         <section class="hero-section">
+            <div class="container container-hero">
             <h1 class="main-title">Effective Solutions for Your Business</h1>
             <button type="button" class="order-button">Order Service</button>
-        </section>
+        </div>
+    </section>
         <!-- Services section -->
-        <section>
-            <h2 hidden class="hidden-title">Services</h2>
+        <section class="section advantages">
+            <div class="container">
+            <h2 hidden class="title hidden-title">Services</h2>
             <ul class="list-services list">
-                <li>
+                <li class="advantages-list-item">
                     <h3 class="serv-title">Strategy</h3>
                     <p class="serv-desc">Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
                 </li>
-                <li>
+                <li class="advantages-list-item">
                     <h3 class="serv-title">Punctuality</h3>
                     <p class="serv-desc">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
-                <li>
+                <li class="advantages-list-item">
                     <h3 class="serv-title">Diligence</h3>
                     <p class="serv-desc">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                 </li>
-                <li>
+                <li class="advantages-list-item">
                     <h3 class="serv-title">Technologies</h3>
                     <p class="serv-desc">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
-        </section>
+        </div>
+    </section>
         <!-- Services examples -->
-        <section>
+        <section class="section about">
+            <div class="container">
             <h2 class="title-examples">What are we doing</h2>
             <ul class="list-examples list">
-                <li>
+                <li class="about-list-item">
                     <img src="./images/work/img1.jpg" alt="desktop" width="360">
                 </li>
-                <li>
+                <li class="about-list-item">
                     <img src="./images/work/img2.jpg" alt="application" width="360">
                 </li>
-                <li>
+                <li class="about-list-item">
                     <img src="./images/work/img3.jpg" alt="smartphone" width="360">
                 </li>
             </ul>
+         </div>
         </section>
         <!-- Team section -->
-        <section class="team-section">
+        <section class="section team-section">
+        <div class="container team-container">
             <h2 class="title-team">Our Team</h2>
             <ul class="list-team list">
                 <li class="team-frame">
                     <img src="./images/team/mark.jpg" alt="Mark Guerrero" width="264">
-                    <h3 class="employee-name">Mark Guerrero</h3>
+                    <h3 class="serv-title employee-name">Mark Guerrero</h3>
                     <p class="duty">Product Designer</p>
                 </li>
                 <li class="team-frame">
                     <img src="./images/team/tom.jpg" alt="Tom Ford" width="264">
-                    <h3 class="employee-name">Tom Ford</h3>
+                    <h3 class="serv-title employee-name">Tom Ford</h3>
                     <p class="duty">Frontend Developer</p>
                 </li>
                 <li class="team-frame">
                     <img src="./images/team/camila.jpg" alt="Camila Garcia" width="264">
-                    <h3 class="employee-name">Camila Garcia</h3>
+                    <h3 class="serv-title employee-name">Camila Garcia</h3>
                     <p class="duty">Marketing</p>
                 </li>
                 <li class="team-frame">
                     <img src="./images/team/daniel.jpg" alt="Daniel Wilson" width="264">
-                    <h3 class="employee-name">Daniel Wilson</h3>
+                    <h3 class="serv-title employee-name">Daniel Wilson</h3>
                     <p class="duty">UI Designer</p>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
+        <div class="container footer-container">
         <a href="./index.html" class="link-logo link">Web<span class="link-title-secondary link">Studio</span></a>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing growth solutions.</p>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
