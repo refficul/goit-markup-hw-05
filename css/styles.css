@@ -383,6 +383,7 @@ img {
   
   .footer {
     background-color: var(--color-navy-blue);
+    padding: 100px 0;
   }
   
   .link-title-secondary {
@@ -404,7 +405,7 @@ img {
     padding: 0;
     margin-bottom: 16px;
   }
-  
+
   /* Portfolio */
   
   /* Buttons */
