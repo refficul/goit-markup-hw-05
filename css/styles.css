@@ -399,6 +399,12 @@ img {
     color: var(--color-cloud);
   }
   
+  .footer-logo {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 16px;
+  }
+  
   /* Portfolio */
   
   /* Buttons */
