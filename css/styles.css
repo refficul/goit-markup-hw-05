@@ -118,14 +118,14 @@ img {
   }
 
   .nav-item {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--color-navy-blue);
   }
@@ -149,8 +149,8 @@ img {
   }
   
   .list-contacts {
-  display: flex;
-  gap: 40px;
+    display: flex;
+    gap: 40px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -163,12 +163,12 @@ img {
   
   .contact {
     display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--color-slate);
   }
@@ -185,10 +185,10 @@ img {
   
   .main-title {
     display: block;
-  margin-bottom: 48px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 496px;
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 496px;
 
     font-family: "Roboto";
     font-style: normal;
@@ -207,10 +207,10 @@ img {
   
   .order-button {
     display: block;
-  min-width: 169px;
-  height: 56px;
-  padding: 16px 32px;
-  margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    margin: 0 auto;
 
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -244,8 +244,8 @@ img {
   /* Services */
   
   .list-services {
-  display: flex;
-  gap: 24px;
+    display: flex;
+    gap: 24px;
     list-style: none;
   }
   
@@ -276,7 +276,7 @@ img {
     color: var(--color-slate);
   }
   
-  .serv-title {
+  .subtitle {
     margin-bottom: 8px;
     font-family: "Roboto";
     font-style: normal;
@@ -288,19 +288,18 @@ img {
   }
   
   /* Services example */
+  
+  .about {
+    padding-top: 0;
+  }
 
   .section {
     padding: 120px 0;
   }
 
-  .about {
-    padding-top: 0;
-  }
-
-
   .list-examples {
     display: flex;
-  gap: 24px;
+    gap: 24px;
     list-style: none;
   }
   
@@ -318,20 +317,26 @@ img {
   
   .hidden-title {
     position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
   }
 
   
   /* Team */
   
-  .team-list-services {
+  .team-list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+  }
+
+  .team-section {
     background-color: var(--color-cloud);
   }
   
@@ -347,36 +352,25 @@ img {
     text-align: center;
   }
   
-  .employee-name {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--color-navy-blue);
-  }
-  
-  .duty {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
-  }
-  
-  .list-team {
-    display: flex;
-  gap: 24px;
-    list-style: none;
-  }
-
-
-
-  .team-frame {
+  .list-card-item {
     background-color: var(--color-white);
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .card-content {
+    padding: 32px 16px;
+  }
+
+  .team-subtitle,
+  .team-text {
+  text-align: center;
+  }
+
+  .text {
+    color: var(--color-slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
   
   /* Footer */
@@ -407,7 +401,24 @@ img {
   }
 
   /* Portfolio */
+
+  .portfolio-section {
+    padding-top: 96px;
+  }
   
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+  }
+
+  .portfolio-card-content {
+    padding: 32px 16px;
+  
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+
   /* Buttons */
   
   .list-filter {
@@ -425,7 +436,7 @@ img {
     color: var(--color-iris);
     cursor: pointer;
     border: 1px solid #e7e9fc;
-  border-radius: 4px;
+    border-radius: 4px;
     padding: 12px 24px;
   }
   
@@ -449,22 +460,7 @@ img {
     list-style: none;
   }
   
-  .title-third {
-    color: var(--color-grey);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-  }
-  
-  
-  .description {
-    color: var(--color-slate);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-  }
+
   
   .link-project {
     text-decoration: none;
