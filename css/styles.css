@@ -75,6 +75,11 @@ img {
     align-items: center;
   }
 
+  .contacts-nav {
+    display: flex;
+    gap: 40px;
+  }
+
   /* Logo */
   .link-logo {
     margin-right: 76px;
@@ -372,7 +377,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
-  
+
   /* Footer */
   
   .footer {
@@ -422,7 +427,10 @@ img {
   /* Buttons */
   
   .list-filter {
-    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
+    justify-content: center;
   }
   
   .filter-button {
