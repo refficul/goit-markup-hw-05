@@ -506,6 +506,7 @@ body {
 
 .footer-social-icon {
   fill: var(--txt-color-dark-theme);
+}
 
 .footer-desc {
   margin-right: 120px;
