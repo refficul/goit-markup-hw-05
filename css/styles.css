@@ -459,10 +459,6 @@ body {
   color: var(--color-ocean);
 }
 
-.customer-item:hover {
-  border: 1px solid var(--color-ocean);
-}
-
 /* Footer */
 
 .footer {
