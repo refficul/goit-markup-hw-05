@@ -694,10 +694,10 @@ body {
   border: 1px solid transparent;
   color: var(--color-white);
 }
-
+backdro
 /* Modal */
 
-.backdrop {
+.backdrope {
   position: fixed;
   top: 0;
   left: 0;
@@ -711,12 +711,13 @@ body {
   backdrop-filter: 1px;
 }
 
-.backdrop.is-hidden {
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.backdrope.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition-delay: 500ms;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -734,7 +735,7 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden .modal {
+.backdrope.is-hidden .modal {
   transform: translate(-50%, -90%);
 }
 
