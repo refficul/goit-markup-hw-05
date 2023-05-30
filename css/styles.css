@@ -203,6 +203,25 @@ body {
   color: var(--color-slate);
 }
 
+.address-contacts {
+  color: var(--color-slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-contacts:hover,
+.address-contacts:focus {
+  color: var(--color-ocean);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .contact.link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
